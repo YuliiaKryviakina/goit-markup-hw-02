@@ -10,18 +10,6 @@ body {
     font-family: 'Roboto', sans-serif;
     color: var(--text-color);
 }
-.visually-hidden {
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    border: 0;
-    padding: 0;
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    margin: -1px;
-}
 a {
     text-decoration: none;
     color: inherit;
@@ -136,6 +124,9 @@ img {
 .team {
     background-color: var(--light-color);
 }
+.team-card-link {
+    background-color: var(--light-text);
+}
  /* footer */
 .footer {
     background-color: var(--dark-color);
@@ -160,8 +151,19 @@ img {
 /* PORTFOLIO */
 /* header */
 /* filters */
-.filters-btn,
-.filters-btn:focus {
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+.filters-btn {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     color: var(--primary-brand-color);
@@ -169,7 +171,8 @@ img {
     font-weight: 500;
     line-height: 1.5;
 }
-.filters-btn:hover {
+.filters-btn:hover,
+.filters-btn:focus {
     color: var(--light-text);
     background-color: var(--primary-brand-color);
 }
