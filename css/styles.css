@@ -10,8 +10,44 @@ body {
     font-family: 'Roboto', sans-serif;
     color: var(--text-color);
 }
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
 a {
     text-decoration: none;
+    color: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+button {
+    cursor: pointer;
+}
+ul,
+ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 /* WEB - header*/
 .logo-header {
@@ -43,9 +79,6 @@ a {
 .menu:active { 
     color: var(--primary-brand-color);
 }
-ul {
-    list-style: none;
-}
 .contacts {
     color: var(--text-color);
     line-height: 1.5;
@@ -65,16 +98,16 @@ ul {
     line-height: 1.07;
 }
 .header-button,
-.header-button:hover,
 .header-button:focus {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
     color: var(--light-text);
     background-color:var(--primary-brand-color);
     font-weight: 500;
-    line-height: 1.19;
-    cursor: pointer;
+    line-height: 1.19;    
 }
+.header-button:hover,
 .header-button:active {
-    color: var(--light-text);
     background-color: #404BBF;
 }
 /* features */
@@ -87,8 +120,7 @@ ul {
     line-height: 1.2;
 }
 .features-text,
-.team-specialization,
-.card-app {
+.team-specialization {
     line-height: 1.5;
 }
 /* What are we doing */
@@ -127,21 +159,22 @@ ul {
 }
 /* PORTFOLIO */
 /* header */
-.portfolio-title {
-    display: none;
-}
 /* filters */
-.filters-btn-active {
-    color: var(--light-text);
-    background-color: var(--primary-brand-color);
-    font-weight: 500;
-    line-height: 1.5;
-    cursor: pointer;
-}
-.filters-btn {
+.filters-btn,
+.filters-btn:focus {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
     color: var(--primary-brand-color);
     background-color: var(--light-color);
     font-weight: 500;
     line-height: 1.5;
-    cursor: pointer;
 }
+.filters-btn:hover {
+    color: var(--light-text);
+    background-color: var(--primary-brand-color);
+}
+.card-app {
+    color: var(--text-color);
+    line-height: 1.5;
+}
+
