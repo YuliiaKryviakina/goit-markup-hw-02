@@ -85,8 +85,7 @@ img {
     font-size: 56px;
     line-height: 1.07;
 }
-.header-button,
-.header-button:focus {
+.header-button {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     color: var(--light-text);
@@ -95,6 +94,7 @@ img {
     line-height: 1.19;    
 }
 .header-button:hover,
+.header-button:focus,
 .header-button:active {
     background-color: #404BBF;
 }
