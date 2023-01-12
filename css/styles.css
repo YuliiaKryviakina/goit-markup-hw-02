@@ -6,14 +6,17 @@
     --accent-color: #E7E9FC;
     --light-text: #FFFFFF;
 }
+
 body {
     font-family: 'Roboto', sans-serif;
     color: var(--text-color);
 }
+
 a {
     text-decoration: none;
     color: inherit;
 }
+
 p,
 h1,
 h2,
@@ -23,28 +26,34 @@ h5,
 h6 {
     margin: 0;
 }
+
 button {
     cursor: pointer;
 }
+
 ul,
 ol {
     list-style: none;
     margin: 0;
     padding: 0;
 }
+
 img {
     display: block;
     max-width: 100%;
     height: auto;
 }
+
 /* WEB - header*/
 .logo-header {
     color: var(--primary-brand-color);
 }
- /* STUDIO - header */
+ 
+/* STUDIO - header */
 .studio-header {
     color: var(--dark-color);
 }
+
  /* logo - header */
  .logo-header, 
  .studio-header {
@@ -54,37 +63,45 @@ img {
     line-height: 1.33;
     text-transform: uppercase;
  }
+
 /* navigation */
 .menu {
     color: var(--dark-color);
     font-weight: 500;
     line-height: 1.5;
 }
+
 .menu:hover,
 .menu:focus {
     color: var(--text-color);
 }
+
 .menu:active { 
     color: var(--primary-brand-color);
 }
+
 .contacts {
     color: var(--text-color);
     line-height: 1.5;
 }
+
 .contacts:hover, 
 .contacts:focus {
     color: var(--primary-brand-color);
 }
+
 /* header */
 .header {
     background-color: var(--dark-color);
 }
+
 .header-tittle {
     color: var(--light-text);
     font-weight: 500;
     font-size: 56px;
     line-height: 1.07;
 }
+
 .header-button {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
@@ -93,11 +110,13 @@ img {
     font-weight: 500;
     line-height: 1.19;    
 }
+
 .header-button:hover,
 .header-button:focus,
 .header-button:active {
     background-color: #404BBF;
 }
+
 /* features */
 .features-title,
 .team-card-title,
@@ -107,10 +126,12 @@ img {
     font-size: 20px;
     line-height: 1.2;
 }
+
 .features-text,
 .team-specialization {
     line-height: 1.5;
 }
+
 /* What are we doing */
 .second-title,
 .team-title {
@@ -120,23 +141,29 @@ img {
     line-height: 1.11;
     text-transform: capitalize;
 }
+
 /* team */
 .team {
     background-color: var(--light-color);
 }
+
 .team-card-link {
     background-color: var(--light-text);
 }
+
  /* footer */
 .footer {
     background-color: var(--dark-color);
 }
+
 .logo-footer {
     color: var(--primary-brand-color);
 }
+
 .studio-footer {
     color: var(--light-color);
 }
+
 .logo-footer, .studio-footer {
     font-family: 'Raleway';
     font-weight: 800;
@@ -144,10 +171,12 @@ img {
     line-height: 1.17;
     text-transform: uppercase;
 }
+
 .footer-text {
     color: var(--accent-color);
     line-height: 1.5;    
 }
+
 /* PORTFOLIO */
 /* header */
 /* filters */
@@ -163,6 +192,7 @@ img {
     clip-path: inset(50%);
     margin: -1px;
 }
+
 .filters-btn {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
@@ -171,13 +201,16 @@ img {
     font-weight: 500;
     line-height: 1.5;
 }
+
 .filters-btn:hover,
 .filters-btn:focus {
     color: var(--light-text);
     background-color: var(--primary-brand-color);
 }
+
 .card-app {
     color: var(--text-color);
     line-height: 1.5;
 }
+
 
